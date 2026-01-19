@@ -175,7 +175,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgb(250, 229, 4),rgb(234, 7,
     margin-bottom: 40px;
 }
 .grid-container{
-    width: 1200px;
+    width: 80%;
     height: 773px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -257,4 +257,94 @@ flex-direction: column;
 justify-content: center;
 text-align: left;
 padding: 40px;
+}
+.feature{
+    display:flex;
+    justify-content: center;
+   flex-direction: column;
+   text-align:left;
+   align-items: center;
+    height: 1277px;
+    width:100%;
+    background-color: #1A0B2E;
+}
+.feature h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.feature-grid{
+    width: 80%;
+    height: 440px;
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,3fr);
+    gap: 10px;
+    padding: 20px;
+}
+.vdo iframe{
+    border-radius: 20px;
+}
+.vdo{
+    width: 400px;
+    height: 440px;
+    padding: 10px;
+    background-color: #2a1744;
+    border-radius: 20px;
+    box-shadow: 2px 1px 20px 10px #0b0414;
+}
+.vdo h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.vdo p{
+    font-family: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.host-container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+}
+.host-item{
+     display: flex;
+     flex-direction: column;
+     background-color: #260c47;
+     box-shadow: 0 0 10px 10px #0b041491;
+      width: 1200px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.host-item h4{
+      font-size: 32px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+}
+.host-item p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.host-icon{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
 }
