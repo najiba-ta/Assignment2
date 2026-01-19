@@ -7,11 +7,10 @@
     padding: 0;
 }
 #nav-bar{
-    border: 2px solid green;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #412567;
+    background-color: #270a50;
     padding: 38px 150px;
 }
 .logo{
@@ -33,10 +32,90 @@
     width:135px ;
     height: 44px;
     color: #FFFFFF;
-    border-radius: 10000px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: none;
 background: var(--Linear, linear-gradient(47.64deg, rgb(250, 229, 4),rgb(234, 7, 255),rgb(108, 8, 238)));
+}
+.banner{
+width: 100%;
+height: 760px;
+display: flex;
+position: relative;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image:url('./assets/hero-bg.png');
+background-size: cover;
+}
+.banner-img{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.mic{
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 80px;
+}
+.badge{
+    background-color:#00FF88;
+    font-size: 18px;
+    font-weight: 600 ;
+    width: 75px;
+    height: 37px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -300px;
+    margin-left:300px;
+}
+.banner-content h1{
+        font-size: 62px;
+        font-weight: 800;
+        color: #FFFFFF;
+}
+.banner-content p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 63px;
+}
+.banner-btn{
+    width:200px ;
+    height: 44px;
+    gap: 8px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+background: var(--Linear, linear-gradient(47.64deg, rgb(250, 229, 4),rgb(234, 7, 255),rgb(108, 8, 238)));
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    gap: 8px
+}
+.sub-btn{
+    width: 147px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
 }
