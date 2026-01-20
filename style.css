@@ -321,7 +321,7 @@ padding: 40px;
       width: 1200px;
     height: 280px;
     border-radius: 20px;
-    padding: 40px;
+    padding-top: 40px;
 }
 .host{
     display: flex;
