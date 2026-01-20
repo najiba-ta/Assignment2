@@ -309,6 +309,7 @@ padding: 40px;
     width: 80%;
     height: 440px;
    display: grid;
+   justify-content: center;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,3fr);
     gap: 10px;
@@ -318,7 +319,8 @@ padding: 40px;
     border-radius: 20px;
 }
 .vdo{
-    width: 400px;
+    justify-content: center;
+    width: 420px;
     height: 440px;
     padding: 10px;
     background-color: #2a1744;
@@ -623,10 +625,11 @@ footer h1{
                  margin-bottom: 200px;
                  }
                  iframe{
-                    width: 260px;
+                    width: 180px;
                  }
                  .vdo{
-                  width: 270px;
+                    justify-content: center;
+                  width: 180px;
                   height: 440px;
                   padding: 10px;
                   background-color: #2a1744;
